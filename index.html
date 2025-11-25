@@ -37,11 +37,29 @@
   /*left: 5px;*/    
       border-radius: 1px;
           }
+    .image-box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #555;
+  border-radius: 0px;
+  overflow: hidden;
+  margin: 20px auto;
+  background: transparent;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* giữ tỷ lệ ảnh, không méo */
+      }
   </style>
 </head>
 <body>
     <h1>GoldenVector3 Official Website</h1>
     <div class="square"></div>
+  <div class="image-box">
+  <img src="example.jpg" alt="Ảnh minh họa">
+  </div>
     <p>Welcome to my website where you can download some files for free!
     Would you like to try coding and decoding systems such as Base32 or Caesar on Scratch? Here are some of them.</p>
     <p>Files:</p>
